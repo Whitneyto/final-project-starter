@@ -4,7 +4,7 @@ import "./App.css";
 
 function App(): JSX.Element {
     const [score, setScore] = useState<number>(0);
-    function updateScore(text:string){
+    function updateScore(text:string):void{
         if(text === "+"){
             setScore(score + 1);
         } else{
