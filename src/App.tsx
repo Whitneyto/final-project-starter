@@ -18,6 +18,7 @@ function App(): JSX.Element {
             <form>Score: {score}</form>
             <button onClick = {() => updateScore("+")}>Increase Score</button>
             <button onClick = {() => updateScore("-")}>Decrease Score</button>
+            <button onClick = {() =>setScore(0)}>Zero Score</button>
         </div>
 
     );
